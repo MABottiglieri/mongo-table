@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{{> head}}
+  <body>
+    <script src="/js/index.js"></script>
+    <div id="main">
+
+      <div class="container">
+        <div class="fixed-table-toolbar">
+          <div class="columns columns-left btn-group pull-left">
+            <button id="button-backgroundColor" class="btn btn-default" type="button" name="sortableSwitch" aria-label="sortable Switch" title="Background color by status"><i class="glyphicon glyphicon-fire"></i></button>
+            <button id="button-refresh" class="btn btn-default" type="button" name="sortableSwitch" aria-label="sortable Switch" title="Refresh columns visibility"><i class="glyphicon glyphicon-refresh"></i></button>
+            <div class="keep-open btn-group" title="Columns visibility">
+              <button id="menu-columns" type="button" aria-label="columns" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-th icon-th"></i> <span class="caret"></span></button>
+              <ul id="dropdown-menu-columns" class="dropdown-menu" role="menu"></ul><!-- dropdown-menu show/hide columns-->
+            </div>
+          </div>
+          <div class="pull-left search">
+            <input id="filter-general" class="form-control" type="text" placeholder="Search">
+          </div>
+          <div id="filter-checkbox" class="input-group pull-right"></div><!-- checkbox filter group -->
+        </div>
+
+        <table id="table"></table><!-- bootstrap Table -->
+      </div>
+
+    <div>
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    font-family: sofia-pro, sans-serif;
+}
+.container{
+    width:100%!important;
+}
+.red{ color: red}
+.green{ }
+.orange{ background: #ffa50070}
+.yellow{ background: #ffff0070}

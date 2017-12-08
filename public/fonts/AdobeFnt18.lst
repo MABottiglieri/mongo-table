@@ -1,0 +1,121 @@
+%!Adobe-FontList 1.18
+%Locale:0x410
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaStd-Book
+FamilyName:Futura Std
+StyleName:Book
+FullName:Futura Std Book
+MenuName:Futura Std Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\Team Marketing\0000 Lombardini22\Corporate Identity\CV\Cartella CV Format\Document fonts\FuturaStd-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:27080
+FileModTime:1260103567
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Futura Std Book
+NameArray:0,Win,1,Futura Std Book
+NameArray:0,Win,16,Futura Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville
+FamilyName:Baskerville
+StyleName:Regular
+FullName:Baskerville
+MenuName:Baskerville
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\Team Marketing\0000 Lombardini22\Corporate Identity\CV\Cartella CV Format\Document fonts\Baskerville.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:252048
+FileModTime:1496821096
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Baskerville
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville-SemiBold
+FamilyName:Baskerville
+StyleName:SemiBold
+FullName:Baskerville SemiBold
+MenuName:Baskerville
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\Team Marketing\0000 Lombardini22\Corporate Identity\CV\Cartella CV Format\Document fonts\Baskerville-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:221272
+FileModTime:1496821096
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Baskerville SemiBold
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Baskerville-BoldItalic
+FamilyName:Baskerville
+StyleName:Bold Italic
+FullName:Baskerville Bold Italic
+MenuName:Baskerville
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:F:\Team Marketing\0000 Lombardini22\Corporate Identity\CV\Cartella CV Format\Document fonts\Baskerville-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:235192
+FileModTime:1496821096
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Baskerville Bold Italic
+NameArray:0,Win,1,Baskerville
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaStd-Bold
+FamilyName:Futura Std
+StyleName:Bold
+FullName:Futura Std Bold
+MenuName:Futura Std Book
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:F:\Team Marketing\0000 Lombardini22\Corporate Identity\CV\Cartella CV Format\Document fonts\FuturaStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:28280
+FileModTime:1260103567
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Futura Std Bold
+NameArray:0,Win,1,Futura Std Book
+NameArray:0,Win,16,Futura Std
+%EndFont
+
