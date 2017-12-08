@@ -39,7 +39,7 @@ function setBackgroundColor(){
 function setTableRows(){
   console.log("dbDocs.urls:",dbDocs.urls);
   dbDocs.urls.forEach(function(url){
-    //url.createdAt = url.createdAt.split(".")[0].split("T").join(" ").split("-").join("/"); //formattazione della data
+    url.createdAt = url.createdAt.split(".")[0].split("T").join(" ").split("-").join("/"); //formattazione della data
     var thisCampain = dbDocs.campains.filter(function(campaign){return campaign._id == url.campaign })[0];
     var thisClient = dbDocs.clients.filter(function(client){return client._id == thisCampain.client })[0];
 
