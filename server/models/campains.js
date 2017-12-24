@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var campainSchema = new Schema({
+var campaignSchema = new Schema({
   legacy: Boolean,
   client: String ,
   order: String,
@@ -13,5 +13,5 @@ var campainSchema = new Schema({
   package: Object
 });
 
-var campains = mongoose.model('campain', campainSchema);
-module.exports = {campains};
+var campaigns = mongoose.model('campaign', campaignSchema);
+module.exports = {campaigns};

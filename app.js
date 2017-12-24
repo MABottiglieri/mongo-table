@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var {ObjectID} = require('mongodb');
 var {mongoose} = require('./server/db/mongoose');
 var {clients} = require('./server/models/clients');
-var {campains} = require('./server/models/campains');
+var {campaigns} = require('./server/models/campaigns');
 var {urls} = require('./server/models/urls');
 
 const port = process.env.PORT || 3000;
@@ -33,8 +33,8 @@ app.get('/clients', function (req, res) {
   })
   .catch((e)=>{ res.status(400).send('Bad Request') });
 });
-app.get('/campains', function (req, res) {
-  campains.find().then((docs) => {
+app.get('/campaigns', function (req, res) {
+  campaigns.find().then((docs) => {
     res.send({
       docs:docs,
       count:docs.length
